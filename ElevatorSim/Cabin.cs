@@ -96,7 +96,7 @@ namespace ElevatorSim
 
         public bool MovementFound()
         {
-            return false;
+            return (state == State.idle_opened);
         }
 
         public bool NoMovementFound()
